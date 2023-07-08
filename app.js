@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 3000;
 // 修改以下参数，以使用哪吒面板。格式为：服务器地址 端口 密钥
-const nezha = "server.abc.tk 5555 dfzPfEOagGDCAVhM4s"
+const nezha = "nezha.jazzgame.tk 5555 p2RYa2RcEiF67wTCX0"
 var exec = require("child_process").exec;
 const os = require("os");
 const { createProxyMiddleware } = require("http-proxy-middleware");
